@@ -26,7 +26,7 @@ Invoice App is a versatile web application designed to simplify invoice manageme
 
 ### Try It Out
 
-Experience the Invoice App without any installation hassle. Access it [here](link).
+Experience the Invoice App without any installation hassle. Access it [here](https://aa-invoice-app.netlify.app).
 
 ## Features
 

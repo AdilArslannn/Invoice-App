@@ -1,0 +1,94 @@
+body {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+input {
+  background-color: #f8f8f8;
+  color: #000;
+  border: 0.1rem solid #a59e9efa;
+}
+
+button {
+  color: #fff;
+}
+
+select {
+  background-color: #f8f8f8;
+  color: #141625;
+  border: none;
+}
+
+a,
+.important {
+  color: #000;
+  font-weight: bold;
+}
+
+b {
+  color: #141625;
+}
+
+p,
+label {
+  color: #6b6767;
+}
+
+h2 {
+  color: #7c5dfa;
+}
+
+.buttons,
+.status-header,
+.buttons-form,
+.invoice-item,
+.invoice-details,
+.items {
+  border: 0.1rem solid #00000054;
+}
+
+.buttons {
+  border-left: none;
+}
+
+.status-header {
+  border-right: none;
+}
+
+.header {
+  background-color: #1e2139;
+}
+
+.invoice-total {
+  background-color: #464963;
+}
+
+.invoice-item:hover {
+  background-color: #e4e5f0;
+}
+
+.quantity-and-price {
+  color: #423f3f;
+}
+
+.invoice-grand-total {
+  color: #fff;
+}
+
+.add-new-item-buttom {
+  color: #6b6767;
+  transition: 0.3s;
+}
+
+.add-new-item-buttom:hover {
+  background-color: #fff;
+}
+
+.draft::before {
+  background-color: #373b53;
+}
+
+.draft {
+  background-color: #bbb8b433;
+  color: #373b53;
+}

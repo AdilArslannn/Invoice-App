@@ -1,0 +1,77 @@
+body {
+  background-color: #0c0e16;
+  color: #fff;
+}
+
+input,
+button {
+  background-color: #252945;
+  color: #fff;
+  border: none;
+}
+
+/*
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  
+  https://stackoverflow.com/a/29350537
+  
+    transition: background-color 5000s ease-in-out 0s;
+     -webkit-text-fill-color: #fff;
+}
+*/
+
+select {
+  background-color: #0c0e16;
+  color: #fff;
+  border: none;
+}
+
+a,
+.important {
+  color: #fff;
+}
+
+p,
+label {
+  color: #beb9b9;
+}
+
+h2 {
+  color: #7c5dfa;
+}
+
+.header {
+  background-color: #1e2139;
+}
+
+.invoice-item,
+.buttons,
+.buttons-form,
+.status-header,
+.invoice-details {
+  background-color: #252945;
+}
+
+.items {
+  background-color: #383c57;
+}
+
+.invoice-total {
+  background-color: #0c0e16;
+}
+
+.invoice-item:hover {
+  background-color: #464963;
+}
+
+.draft::before {
+  background-color: #dfe3fa;
+}
+
+.draft {
+  background-color: #61616133;
+  color: #dfe3fa;
+}

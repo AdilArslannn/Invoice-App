@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+input {
+  padding: 0.625rem;
+  font-size: 0.625rem;
+  font-weight: bold;
+  outline: none;
+  border-radius: 0.3rem;
+}
+
+button {
+  padding: 0.938rem;
+  font-size: 0.938rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.875rem;
+}
+
+select {
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.button {
+  flex-grow: 1;
+  margin: 0 0.313rem;
+}
+
+.go-back-image {
+  margin-right: 1rem;
+}
+
+.go-back {
+  margin: 2rem 0;
+}
+
+.status {
+  display: flex;
+  padding: 0.625rem 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.status::before {
+  content: '';
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+
+@media (width >= 768px) {
+  input {
+    padding: 0.938rem;
+    font-size: 0.938rem;
+  }
+
+  button {
+    padding: 1.125rem;
+    font-size: 1.125rem;
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+
+  .go-back-image {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+}
+
+.purple {
+  background-color: #7c5dfa;
+  transition: 0.3s;
+}
+
+.grey {
+  background-color: #888eb0;
+  transition: 0.3s;
+}
+
+.light-black {
+  background-color: #2c304b;
+  transition: 0.3s;
+}
+
+.red {
+  background-color: #ec5757;
+  transition: 0.3s;
+}
+
+.purple:hover {
+  background-color: #9277ff;
+}
+
+.grey:hover {
+  background-color: #abb0c9;
+}
+
+.light-black:hover {
+  background-color: #42455a;
+}
+
+.red:hover {
+  background-color: #da8080;
+}
+
+.pending::before {
+  background-color: #ff8f00;
+}
+
+.paid::before {
+  background-color: #33d69f;
+}
+
+.pending {
+  background-color: #ff91001a;
+  color: #ff8f00;
+}
+
+.paid {
+  background-color: #37da4c1a;
+  color: #33d69f;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}

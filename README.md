@@ -28,19 +28,19 @@ Invoice App is a versatile web application designed to simplify invoice manageme
 
 Experience the Invoice App without any installation hassle. Access it [here](https://aa-invoice-app.netlify.app).
 
-## OR Run it On Your Machine
+### OR Run it On Your Machine
 
-### Prerequisites
+#### Prerequisites
 
 Ensure you have Node.js and npm installed on your machine.
 
-### Project Setup
+#### Project Setup
 
 ```sh
 npm install
 ```
 
-#### Development Mode
+##### Development Mode
 
 To develop the app with hot-reloading, run:
 
@@ -48,7 +48,7 @@ To develop the app with hot-reloading, run:
 npm run dev
 ```
 
-#### Production Build
+##### Production Build
 
 For a production-ready build, execute:
 

@@ -49,16 +49,3 @@ watch(route, async (newRoute) => {
   }
 });
 </script>
-
-/*
-<script setup lang="ts">
-import Header from './components/Header/HeaderIndex.vue'
-import { ref } from 'vue'
-
-const isDarkTheme = ref<boolean>(true)
-
-const onSwitchTheme = (value: boolean): void => {
-  isDarkTheme.value = value
-}
-</script>
-*/

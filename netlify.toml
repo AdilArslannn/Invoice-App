@@ -5,6 +5,6 @@
     cf-ray = "test-value-12345"
 
 [[redirects]]
-  from = "/page2"
-  to = "/maintenance.html"
-  status = 503
+  from = "/edit/*"
+  to = "/.netlify/functions/editRoute"
+  status = 200

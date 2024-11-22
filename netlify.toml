@@ -3,3 +3,8 @@
   [headers.values]
     Content-Security-Policy = "img-src 'self'; script-src 'unsafe-inline' https://www.googletagmanager.com 'self'; style-src-elem 'self' https://fonts.googleapis.com; connect-src 'https://example.com'"
     cf-ray = "test-value-12345"
+
+[[redirects]]
+  from = "/page2"
+  to = "/maintenance.html"
+  status = 503

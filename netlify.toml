@@ -3,9 +3,3 @@
   [headers.values]
     Content-Security-Policy = "img-src 'self'; script-src 'unsafe-inline' https://www.googletagmanager.com 'self'; style-src-elem 'self' https://fonts.googleapis.com; connect-src 'https://example.com'"
     cf-ray = "test-value-12345"
-
-[[redirects]]
-  from = "/edit/*"
-  to = "/.netlify/functions/editRoute"
-  status = 200
-  force = true

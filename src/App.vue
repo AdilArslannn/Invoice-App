@@ -10,6 +10,7 @@
 </template>
 
 <script setup lang="ts">
+import router from '@/router'
 import Header from './components/Header/HeaderIndex.vue'
 import { ref } from 'vue'
 

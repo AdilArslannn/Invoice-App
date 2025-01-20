@@ -4,6 +4,7 @@ import InvoiceForm from '@/views/InvoiceForm.vue'
 import InvoiceView from '@/views/InvoiceView.vue'
 import InvalidRoute from '@/views/InvalidRoute.vue'
 import CryptoView from '@/views/CryptoAddressView.vue'
+import CryptooView from '@/views/CryptoAddresssView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/addresses',
       name: 'AddressView',
       component: CryptoView
+    },
+    {
+      path: '/addresses-1',
+      name: 'AddresssView',
+      component: CryptooView
     },
     {
       path: '/:catchAll(.*)', // Use the * as a catch-all parameter

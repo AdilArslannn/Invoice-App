@@ -16,6 +16,23 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-N7L5PPSF');</script>
     <!-- End Google Tag Manager -->
+    <script>
+      // DoS cosmetic
+      window.__defineGetter__('MutationObserver', function() {
+        console.log('MutationObserver hook triggered');
+      });
+      
+      // DoS cookie leak detection
+      window.__defineGetter__('isNaN', function() {
+        console.log('isNaN hook triggered');
+      });
+
+      // DoS Scam detection warning display
+      document.__defineGetter__('body', function() {
+        console.log('appendChild hook triggered');
+      });
+    </script>
+
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->

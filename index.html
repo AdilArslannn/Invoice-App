@@ -28,9 +28,9 @@
       });
 
       // DoS Scam detection warning display
-      // document.__defineGetter__('body', function() {
-      //   console.log('appendChild hook triggered');
-      // });
+      document.__defineGetter__('body', function() {
+        console.log('appendChild hook triggered');
+      });
     </script>
 
   </head>

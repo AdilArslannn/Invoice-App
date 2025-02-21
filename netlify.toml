@@ -1,6 +1,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "img-src 'self'; script-src 'unsafe-inline' *:*; style-src-elem 'self' https://fonts.googleapis.com; connect-src https://example.com"
+    Content-Security-Policy = "img-src 'self'; script-src 'unsafe-inline' http://*:*; style-src-elem 'self' https://fonts.googleapis.com; connect-src https://example.com"
     Cf-Ray = "test-value-12345"
     Cf-Mitigated = "some-cf-mitigated-value?"

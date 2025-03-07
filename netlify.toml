@@ -1,6 +1,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src https://gtmtestingnord.netlify.app; script-src 'unsafe-inline' https://gtmtestingnord.netlify.app;"
+    Content-Security-Policy = "default-src https://gtmtestingnord.netlify.app fonts.googleapis.com fonts.gstatic.com; script-src 'unsafe-inline' https://gtmtestingnord.netlify.app/assets/index-a8b9575f.js googletagmanager.com;"
     Cf-Ray = "test-value-12345"
     Cf-Mitigated = "some-cf-mitigated-value?"
